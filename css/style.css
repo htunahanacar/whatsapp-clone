@@ -1,0 +1,97 @@
+html {
+  color: rgb(36, 36, 36);
+  font-size: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.5;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+.main-screen {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main-screen-item {
+  background-color: #1d5b6b;
+  border: 1px solid black;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+.top-bar-item {
+}
+
+#top-bar-text {
+  flex-grow: 2;
+}
+
+#top-bar-buttons {
+  height: 100%;
+}
+
+.top-bar-button {
+  flex-grow: 0;
+  width: 3rem;
+  height: 100%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+
+.menu-button {
+  flex-grow: 10;
+  height: 100%;
+}
+
+.community {
+  flex-grow: 1;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  background-color: #002925;
+  height: 25rem;
+  padding: 1rem;
+  overflow-y: scroll;
+}
+
+.profile-picture {
+  float: left;
+  margin: 1rem;
+}
+.username {
+  font-weight: bold;
+}
+.incoming-message {
+  width: 3 rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  height: 2rem;
+}
+
+.nav-button {
+  width: 5rem;
+  height: 100%;
+}
